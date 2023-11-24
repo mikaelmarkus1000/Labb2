@@ -13,21 +13,31 @@ class Program
         //Console.WriteLine("3. Print Sum of family members ages");
         //Console.WriteLine("4. Print the avrage of all family members");
 
+
+
+
+
         string[] familyName = new string[familyNum];
 
         for (int i = 0; i < familyNum; i++)
         {
             Console.WriteLine("Enter the name of family member");
             string enteredName = Console.ReadLine();
-            familyName = new string[] { enteredName };
+            familyName[i] = enteredName;
             
 
 
 
 
         }
-        Console.WriteLine(familyName);
-        
+        for (int i = 0; i < familyNum; i++)
+        {
+            Console.WriteLine(familyName[i]);
+
+
+        }
+
+
 
 
 

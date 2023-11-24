@@ -17,23 +17,25 @@ class Program
 
 
 
-        string[] familyName = new string[familyNum];
+        string[] familyNames = new string[familyNum];
+        string[] familyAges = new string[familyNum];
 
         for (int i = 0; i < familyNum; i++)
         {
-            Console.WriteLine("Enter the name of family member");
+            Console.WriteLine($"Enter the name of family member {i + 1}" );
             string enteredName = Console.ReadLine();
-            familyName[i] = enteredName;
-            
-
+            familyNames[i] = enteredName;
+            Console.WriteLine($"Enter the age of family member {i + 1}");
+            string enteredAge = Console.ReadLine();
+            familyAges[i] = enteredAge;
 
 
 
         }
         for (int i = 0; i < familyNum; i++)
         {
-            Console.WriteLine(familyName[i]);
-
+            Console.WriteLine(familyNames[i]);
+            Console.WriteLine(familyAges[i]);
 
         }
 

@@ -72,7 +72,7 @@ class Program
 
 
                 case "4":
-
+                    // Likande med case 3 += och sedan gör medain uträkning. 
 
                     {
 
@@ -88,28 +88,11 @@ class Program
 
 
                     break;
-
+             // Hoppar ut ur while loopen vilket effektivt avsultar programet.  
                 case "5":
                     Console.WriteLine("Exiting the program. Goodbye!");
                     return;
-
-                    
-
             }
         }
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
 }
